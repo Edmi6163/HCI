@@ -1,0 +1,131 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Analisi del Test di Krug}
+\author{Francesco Mauro, Riccardo Oro}
+\date{Luglio 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Questo documento presenta i risultati del Test di Krug condotto su tre soggetti come parte di un esame universitario per valutare l'usabilità di un sito web.
+\end{abstract}
+
+\tableofcontents
+
+\newpage
+
+\section{Introduzione}
+Il Test di Krug è un metodo di test di usabilità progettato per identificare problemi nell'interfaccia utente di un sito web. Consiste nell'osservare i soggetti mentre eseguono compiti specifici e raccogliere dati qualitativi e quantitativi per migliorare l'esperienza utente.
+
+\section{Descrizione del Test}
+Il Test di Krug prevede i seguenti passaggi:
+\begin{enumerate}
+    \item Selezione dei soggetti.
+    \item Preparazione dei compiti per i soggetti.
+    \item Osservazione e registrazione delle interazioni dei soggetti con il sito web.
+    \item Analisi dei dati raccolti per identificare problemi di usabilità.
+\end{enumerate}
+
+\section{Soggetti}
+Sono stati selezionati tre soggetti per il test. I loro dettagli sono i seguenti:
+\begin{itemize}
+    \item Soggetto 1: [Utente 1]
+    \item Soggetto 2: [Utente 2]
+    \item Soggetto 3: [Utente 3]
+\end{itemize}
+
+\section{Compiti}
+I seguenti compiti sono stati assegnati a ciascun soggetto:
+\begin{itemize}
+    \item Compito 1: [Leggere gli articoli]
+    \item Compito 2: [Uso del sistema di messaggistica]
+    \item Compito 3: [Visualizzazione dei dati]
+\end{itemize}
+
+\section{Risultati}
+\subsection{Soggetto 1}
+\subsubsection{Leggere gli articoli}
+\begin{itemize}
+    \item Osservazioni: [Completato]
+    \item Tempo impiegato: [$\simeq$ 20 secondi]
+    \item Errori: []
+    \item Commenti: []
+\end{itemize}
+\subsubsection{Uso del sistema di messaggistica}
+\begin{itemize}
+    \item Osservazioni: [Completato]
+    \item Tempo impiegato: [circa 30 secondi] 
+    \item Errori: [0]
+    \item Commenti: [nome utente inserito nel campo room ]
+\end{itemize}
+\subsubsection{Visualizzazione dei dati}
+\begin{itemize}
+    \item Osservazioni: [Fallito]
+    \item Tempo impiegato: [1 minuto]
+    \item Errori: [1]
+    \item Commenti: [L'utente non è riuscito a trovare l'apposito pulsante che l'avrebbe rendirizzato verso l'apposita pagina ,poichè non ha trovato il tasto per abilitare modalità t]
+\end{itemize}
+
+\subsection{Soggetto 2}
+\subsubsection{Leggere gli articoli}
+\begin{itemize}
+    \item Osservazioni: [Completato]
+    \item Tempo impiegato: [$\simeq$ 12 secondi]
+    \item Errori: [0]
+    \item Commenti: [L'utente non ha riscontrato problemi nel leggere gli articoli presentati nella home]
+\end{itemize}
+\subsubsection{Uso de sistema interno di messaggisticaggistica}
+\begin{itemize}
+    \item Osservazioni: [Fallito]
+    \item Tempo impiegato: [circa 40 secondi]
+    \item Errori: [1]
+    \item Commenti: [L'Utente ha inserito nel campo'Room' il nome di una chat non esistente e il sistema ha comunque generato una nuova stanza ,mancanza del controllo sulle chat disponibili ]
+\end{itemize}
+\subsubsection{Visualizzazione dei dati}
+\begin{itemize}
+    \item Osservazioni: [Dettagli]
+    \item Tempo impiegato: []
+    \item Errori: [Dettagli]
+    \item Commenti: [Dettagli]
+\end{itemize}
+
+\subsection{Soggetto 3}
+\subsubsection{Leggere gli articoli}
+\begin{itemize}
+    \item Osservazioni: [Completato]
+    \item Tempo impiegato: [$\simeq$ 18 secondi]
+    \item Errori: []
+    \item Commenti: [L'utente ha trovato gli articoli senza alcuna difficoltà]
+\end{itemize}
+\subsubsection{Uso del sistema interno di messaggistica}
+\begin{itemize}
+    \item Osservazioni: [Compltato]
+    \item Tempo impiegato: [$\simeq$ 30 secondi]
+    \item Errori: []
+    \item Commenti: [L'utente ha trovato la chat senza alcun problema]
+\end{itemize}
+\subsubsection{Visualizzazione dei dati}
+\begin{itemize}
+    \item Osservazioni: [Fallito]
+    \item Tempo impiegato: [$\simeq$ 80 secondi]
+    \item Errori: [1]
+    \item Commenti: [L'utente non ha trovato la checkbox per ottenere il ruolo di esperto e sbloccare la sezione con i grafici]
+\end{itemize}
+
+\section{Analisi e Discussione}
+I risultati del Test di Krug indica un'area di miglioramento, ovvero semplificare l'accesso ai grafici. La raccomandazione da parte dei 3 soggetti in generale è stata:
+\begin{itemize}
+    \item Di semplificiare l'accesso ai grafici inserendo un pulsante nella navbar o nella home page, al posto di inserirlo solamente nell'About Us.
+\end{itemize}
+
+\section{Conclusione}
+Il Test di Krug ha fornito preziose intuizioni sull'usabilità del sito web. L'implementazione delle modifiche raccomandate dovrebbe migliorare l'esperienza e la soddisfazione degli utenti.
+\end{document}
